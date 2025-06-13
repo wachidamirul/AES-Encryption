@@ -38,7 +38,7 @@ eksplorasi mandiri.
 
 ## Teknologi
 
-- **NextJs**: Untuk antarmuka pengguna interaktif.
+- **ReactJS**: Untuk antarmuka pengguna interaktif.
 - **TypeScript**: Untuk pengetikan statis dan pengembangan yang lebih aman.
 - **Tailwind CSS**: Untuk styling responsif dan modern.
 
