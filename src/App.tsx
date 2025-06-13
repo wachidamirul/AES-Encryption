@@ -7,7 +7,7 @@ import InfoPanel from "./components/InfoPanel";
 import AESVisualization from "./components/AESVisualization";
 import CBCVisualization from "./components/CBCVisualization";
 import { encrypt, decrypt, aesEducational } from "./crypto";
-import { Lock, Unlock, Info, RefreshCw, KeyRound, ArrowRightLeft } from "lucide-react";
+import { Lock, Unlock, Info, RefreshCw, KeyRound, ArrowRightLeft, Github } from "lucide-react";
 
 function App() {
   // State for input values
@@ -386,7 +386,14 @@ function App() {
               </p>
             </div>
             <div className="text-xs text-gray-400">
-              <p>For educational purposes only. Not for production use.</p>
+              <a
+                href="https://github.com/wachidamirul/AES-Encryption"
+                className="text-gray-400 hover:text-white transition"
+                target="_blank"
+                rel="noopener noreferrer">
+                <Github className="inline w-4 h-4 mr-1" />
+                View on GitHub
+              </a>
             </div>
           </div>
         </div>
