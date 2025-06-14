@@ -51,7 +51,7 @@ atau eksplorasi mandiri.
   - Melakukan padding pesan.
   - Membagi pesan menjadi blok 16 byte.
   - Melakukan XOR blok pertama dengan IV, blok berikutnya dengan ciphertext sebelumnya.
-  - Setiap blok diproses dengan AES (lihar
+  - Setiap blok diproses dengan AES (lihat
     [aesEncryptBlock](https://github.com/wachidamirul/AES-Encryption/blob/master/src/crypto/aesCore.ts)).
   - Hasil setiap langkah dicatat dan divisualisasikan.
 
